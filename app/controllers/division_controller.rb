@@ -1,6 +1,6 @@
 class DivisionController < ApplicationController
   def show_division_form
-    render({ :template => "division_templates/division_form" })
+    render({ :template => "div_templates/division_form" })
   end
 
   def divide_these
